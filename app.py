@@ -7,7 +7,7 @@ import base64
 app = Flask(__name__)
 
 # Load the YOLO model
-model = YOLO("/mnt/c/Users/Shreyas N/Desktop/Proj/models/best_saved_model/best_float16.tflite")  # Update with your actual model path
+model = YOLO("C:/Users/DELL/Documents/GitHub/Pothole_Detection/models/best_saved_model/best_float16.tflite")  # Update with your actual model path
 
 @app.route('/', methods=['GET'])
 def index():
